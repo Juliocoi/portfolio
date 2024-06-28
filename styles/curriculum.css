@@ -1,0 +1,57 @@
+.container__curriculum {
+  padding: 5% 15%;
+}
+
+.container__curriculum__{
+  text-align: center;
+} 
+
+.container__curriculum__titulo {
+  font-size: 36px;
+  font-family: var(--main-font);
+}
+
+.container__curriculum__paragrafo{
+  font-family: var(--second-font);
+  font-size: 26px;
+  padding: 50px 0px;
+}
+
+.container__curriculum__section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container__curriculum__section:hover{
+  background-color: var(--hover-color);
+}
+
+.container__curriculum__conteudo {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.container__curriculum__conteudo__data{
+  width:300px;
+  font-family: var(--main-font);
+  font-size: 18px;
+}
+
+.container__curriculum__conteudo__desc {
+  width: 1000px;
+  font-family: var(--second-font);
+  font-size: 18px;
+  display: flex;
+  flex-direction:  column;
+  gap: 20px;
+}
+.curr__button{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
